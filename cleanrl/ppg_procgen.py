@@ -38,7 +38,7 @@ class Args:
     # Algorithm specific arguments
     env_id: str = "starpilot"
     """the id of the environment"""
-    total_timesteps: int = int(25e6)
+    total_timesteps: int = int(20e6)
     """total timesteps of the experiments"""
     learning_rate: float = 5e-4
     """the learning rate of the optimizer"""
